@@ -42,7 +42,7 @@ double sinn(double x, uint16_t count) {
 double cosn(double x, uint16_t count) {
     double res2 = 0.0;
     for (uint16_t i = 1; i <= count; i++) {
-        res2 += pown(-1, i - 1) * calcItem(x, (2 * i) - 2;
+        res2 += pown(-1, i - 1) * calcItem(x, (2 * i) - 2);
     }
     return res2;
 }
